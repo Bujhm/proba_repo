@@ -53,6 +53,17 @@
         // скрипт должен пересылать пользователя на его страницу с id пользователя
         //header("Location: http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);exit;
         }
+
+    public function timeCapsule($num_sec)
+        {
+            $one_sec_milsec = 1000;
+            $mill_sec = $num_sec * $one_sec_milsec;
+            for ($i=0; $i <= $mill_sec; $i++)
+            {
+                $sec = $i % $one_sec_milsec;
+                return $sec;
+            }
+        }
 }
 
 ?>

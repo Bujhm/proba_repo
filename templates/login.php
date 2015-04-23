@@ -1,4 +1,4 @@
-<a href="<?=DOMAIN?>?lang=<?=@$_GET['lang']?>"><?=$lang['main_page']?></a>
+<a href="<?=DOMAIN?>"><?=$lang['main_page']?></a>
   <div class="txt-center">
 
   <form action="" method="post" enctype="application/x-www-form-urlencoded" name="login">

@@ -1,4 +1,4 @@
-<a href="<?=DOMAIN?>?lang=<?=@$_GET['lang']?>"><?=$lang['main_page']?></a> | <a href="<?=DOMAIN?>?file=register&amp;lang=ru">ru</a> | <a href="<?=DOMAIN?>?file=register&amp;lang=en">en</a>
+<a href="<?=DOMAIN?>"><?=$lang['main_page']?></a> | <a href="<?=DOMAIN?>?file=register&amp;lang=ru">ru</a> | <a href="<?=DOMAIN?>?file=register&amp;lang=en">en</a>
 <div class="txt-center">
 <form action="<?=DOMAIN?>?file=register" method="post" enctype="multipart/form-data" name="registration" onsubmit="real_city(getElementById('city').options[getElementById('city').selectedIndex].text);this.submit_button.disabled=true">
 

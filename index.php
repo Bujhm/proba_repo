@@ -1,4 +1,4 @@
-<?php
+<?php session_start();ob_start();
 //require_once('inc/charset.php');
 require_once('inc/config.php');
 //require_once('classes/db.php');
@@ -16,7 +16,6 @@ function __autoload($class_name) // автоматическое подключ�
   }
 
 }
-session_start();ob_start();
 db::connect();
 
 $pagetitle = $lang['main_page'];
