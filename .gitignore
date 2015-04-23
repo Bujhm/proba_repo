@@ -123,6 +123,9 @@ UpgradeLog*.XML
 # Windows image file caches
 Thumbs.db
 
+#Dreamviewer
+_notes
+
 # Folder config file
 Desktop.ini
 proba/
